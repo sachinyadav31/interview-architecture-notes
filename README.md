@@ -31,4 +31,8 @@ Each file covers one feature: **what it does → architecture diagram → the ex
 | 15 | [AI copilot / chatbot (LangGraph)](15-ai-copilot.md) | Multi-provider LLM, 500+ tools calling our APIs with the user's token |
 | 16 | [IQ Helix (FastAPI + React)](16-iq-helix.md) | Assessments, AI course generation, production hardening |
 | 17 | [Angular frontend architecture](17-angular-frontend.md) | Portals, shared IAM UI library, interceptors, i18n |
+| 18 | [Inventory, manufacturing, logistics, operations](18-supply-chain-services.md) | **Your services**: stock ledger + balances, BOM/production, shipments, risk scoring, generic CQRS base |
+| 19 | [Supporting services](19-supporting-services.md) | Textract invoice OCR, UBL e-invoicing, budgets, Kafka Connect analytics, embedded Superset, Eureka |
+| 20 | [Inclufy Django platform](20-inclufy-django-platform.md) | Django apps, APScheduler jobs, tenant provisioning step 2, nightly AI agents, automation rules |
+| 21 | [Inclufy Ignite (React) + deployment](21-inclufy-ignite-react.md) | Your migration: two Axios clients, refresh queue, permissions, copilot registry, nginx + PM2 |
 | 99 | [Generic questions + system design](99-general-questions.md) | Microservices, Kafka, Spring, JPA, and how to answer design rounds |
