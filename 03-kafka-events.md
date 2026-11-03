@@ -54,10 +54,10 @@ Because topics are per tenant, you can't hard-code them in annotations. Instead:
 
 ```mermaid
 flowchart LR
-  P[PO service<br/>tenant=acme] -->|ep.nike.supplier-po-created-topic<br/>hdr target=nike, source=acme| K[(Kafka)]
-  K --> C[supplier-procurement<br/>dynamic container for nike]
-  C --> I[ConsumerInterceptor sets tenant=nike]
-  I --> L[listener.onMessage → save PO in nike DB]
+  P[PO service<br/>tenant=acme] -->|ep.acme.supplier-po-created-topic<br/>hdr target=globex, source=acme| K[(Kafka)]
+  K --> C[supplier-procurement<br/>dynamic container for globex]
+  C --> I[ConsumerInterceptor sets tenant=globex]
+  I --> L[listener.onMessage → save PO in globex DB]
 ```
 
 ## Reliability details (what we had / what to say)
